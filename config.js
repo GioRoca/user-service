@@ -4,4 +4,5 @@ module.exports = {
   HOST: process.env.HOST,
   PORT: process.env.PORT,
   BASEPATH: process.env.BASEPATH,
+  POSTGRESQL: JSON.parse(process.env.POSTGRESQL),
 };
